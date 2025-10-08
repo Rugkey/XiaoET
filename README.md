@@ -1,4 +1,4 @@
-# m3u8-suite
+# m3u8-suite 花了一天结合AI做了好久，哈哈，先发出来1.0版本，目前我这已经更新到3.0，打包成windows.exe可执行文件了，求支持。。。
 
 一个将“小鹅通课程 m3u8 列表导出”和“m3u8 批量下载”结合的最小套件：
 - python-lister：列出课程每个视频的 m3u8（支持指定清晰度）。
@@ -48,3 +48,4 @@ go run go-downloader/main.go -list <临时urls.txt> -prefix courseA -cookie "<co
 ## 故障排查
 - 未找到课程资源：检查 `app_id/product_id` 是否来自同一个课程页面，Cookie 是否新鲜且对应登录态。
 - Go 下载器报错：检查 Go/ffmpeg 是否在 PATH 中；网络是否可访问；可调整 `-retries/-timeout`。
+
