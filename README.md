@@ -49,3 +49,8 @@ go run go-downloader/main.go -list <临时urls.txt> -prefix courseA -cookie "<co
 - 未找到课程资源：检查 `app_id/product_id` 是否来自同一个课程页面，Cookie 是否新鲜且对应登录态。
 - Go 下载器报错：检查 Go/ffmpeg 是否在 PATH 中；网络是否可访问；可调整 `-retries/-timeout`。
 
+![IMG_3146](https://github.com/user-attachments/assets/9b420b94-9a5c-44ad-a44c-814177aa0952)
+![IMG_3147](https://github.com/user-attachments/assets/85ffb8f2-f2e3-4d39-8e7b-d52a9db000c5)
+
+
+
